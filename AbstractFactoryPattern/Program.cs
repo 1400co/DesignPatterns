@@ -20,14 +20,14 @@ namespace AbstractFactoryPattern
             Console.WriteLine(hondaclient.GetBikeName());
             Console.WriteLine(hondaclient.GetScooterName());
 
-            var hero = new HeroFactory();
-            VehicleClient heroclient = new VehicleClient(hero, "Regular");
+            var yamahaFactory = new YamahaFactory();
+            VehicleClient heroclient = new VehicleClient(yamahaFactory, "Regular");
 
-            Console.WriteLine("******* Hero **********");
+            Console.WriteLine("******* Yamaha **********");
             Console.WriteLine(heroclient.GetBikeName());
             Console.WriteLine(heroclient.GetScooterName());
 
-            heroclient = new VehicleClient(hero, "Sports");
+            heroclient = new VehicleClient(yamahaFactory, "Sports");
             Console.WriteLine(heroclient.GetBikeName());
             Console.WriteLine(heroclient.GetScooterName());
 

@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HeroFactory.cs" />
+    <Compile Include="YamahaFactory.cs" />
     <Compile Include="HondaFactory.cs" />
     <Compile Include="IBike.cs" />
     <Compile Include="IScooter.cs" />

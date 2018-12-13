@@ -5,7 +5,7 @@ namespace AbstractFactoryPattern
     /// <summary>
     /// The 'ConcreteFactory2' class.
     /// </summary>
-    class HeroFactory : IVehicleFactory
+    class YamahaFactory : IVehicleFactory
     {
         public IBike GetBike(string Bike)
         {
